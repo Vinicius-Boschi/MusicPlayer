@@ -64,6 +64,10 @@ html, body {
         height: auto;
     }
 
+    #progress {
+        width: 68%;
+    }
+
     .backMusic,.playMusic,.skipMusic {
         width: 15%;
     }
