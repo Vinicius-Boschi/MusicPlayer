@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/music.png">
+    <title>Music Player</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="audio">
+                <audio id="musicPlayer" no-controls>
+                    <source src="assets/audio/o_vagabundo_e_a_dama.mp3" id="song" type="audio/mpeg">    
+                </audio>
+                <div class="infos">
+                    <img class="image" src="" alt="música">
+                    <h1 class="titleMusic"></h1>
+                    <p class="artist"></p>
+                </div>
+                <span class="minutes_seconds"></span>
+                <input type="range" name="progress" id="progress" step="1" max="0" min="0">
+                <span class="minutes_full"></span>
+            </div>
+            <div class="controls">
+                <div class="buttons">
+                    <span class="btn">
+                        <img class="backMusic" src="assets/img/previous.png" alt="back-img">
+                    </span>
+                    <span class="btn">
+                        <img class="playMusic" src="assets/img/play.png" alt="play-img">
+                    </span>
+                    <span class="btn">
+                        <img class="skipMusic" src="assets/img/skip-button.png" alt="skip-img">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js" type="module"></script>
+    
+</body>
+</html>
